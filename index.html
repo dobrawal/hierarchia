@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Dodawanie CSS/hierarchia</title>
+    <style>
+        #header .box {
+            background-color: rgb(158, 91, 144);
+            padding: 20px;
+            text-align: center;
+        }
+        
+        #main .box {
+            background-color: rgb(63, 99, 63);
+            padding: 20px;
+            text-align: center;
+        }
+        
+        #footer .box {
+            background-color: rgb(96, 115, 155);
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="box">
+            <h1>Nagłówek</h1>
+        </div>
+    </div>
+    
+    <div id="main">
+        <div class="box">
+            <p>Treść</p>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <div class="box">
+            <p>Stopka</p>
+        </div>
+    </div>
+</body>
+</html>
